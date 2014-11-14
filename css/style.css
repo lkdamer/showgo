@@ -23,14 +23,22 @@ body {
   /*display: inline-block;
   padding: 15px;*/
   /*width: 45%;*/
+  padding: 15px;
+  text-align: center;
+  height: 300px;
 }
+
 
 #whats-going-on {
   background: white;
+  padding: 15px;
+  text-align: center;
 }
 
 #top-div {
   background: red;
+  padding: 15px;
+  text-align: center;
 }
 
 #learn-more-div {
@@ -38,6 +46,8 @@ body {
   /*width: 80%;*/
   margin-left: auto;
   margin-right: auto;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #true-live-music {
@@ -58,9 +68,13 @@ body {
 
 #bottom-request {
   background: pink;
+  padding: 15px;
+  text-align: center;
 }
 
-#footer {
+footer {
   background: aquamarine;
   color: red;
+  padding: 10px;
+
 }
