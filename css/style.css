@@ -78,3 +78,23 @@ footer {
   padding: 10px;
 
 }
+
+#submit-button {
+  border-style: none;
+  margin-left: -4px;
+  height: 30px;
+  font-size: 1em;
+}
+
+#email-address {
+  padding: 0;
+  font-size: 1em;
+  margin: 0;
+  border-style: none;
+  height: 30px;
+}
+
+#email {
+  margin: 15px;
+  padding: 0;
+}
