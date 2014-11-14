@@ -1,0 +1,66 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  top: 0;
+
+}
+
+/*DIVS*/
+
+#top-tagline {
+  margin: 0;
+}
+
+.icon-title {
+  margin: 0;
+}
+
+.fullpage-div {
+  background: black;
+}
+
+.icon-div {
+  /*display: inline-block;
+  padding: 15px;*/
+  /*width: 45%;*/
+}
+
+#whats-going-on {
+  background: white;
+}
+
+#top-div {
+  background: red;
+}
+
+#learn-more-div {
+  background: orange;
+  /*width: 80%;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#true-live-music {
+  background: yellow;
+}
+
+#better-with-friends {
+    background: green;
+}
+
+#bands-and-fans {
+  background: blue;
+}
+
+#nothing-but-live {
+  background: purple;
+}
+
+#bottom-request {
+  background: pink;
+}
+
+#footer {
+  background: aquamarine;
+  color: red;
+}
