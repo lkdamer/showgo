@@ -7,13 +7,27 @@
       <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title" id="myModalLabel">Thanks for requesting a Showgo beta account!</h4>
+        </div>
+        <div class="modal-body">
+          We have a limited number of beta accounts available, but as long as there's enough right now, you'll receive an email invite shortly. We're happy you found us! Stay in touch over on our <a href="BLOG URL">blog</a> and our <a href="TWITTER URL">snarky twitter account</a>.
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="fullpage-div">
     <div id="top-div" class="fullpage-div">
       <!-- This is where the concert pic and the beta request form goes. -->
         <h1 id = "top-tagline">Because live music is better</h1>
         <form id = "email">
             <input type="text" id="email-address" />
-            <button id = "submit-button">SUBMIT</button>
+            <button id = "submit-button", >SUBMIT</button>
         </form>
     </div>
 
