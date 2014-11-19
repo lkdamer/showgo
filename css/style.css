@@ -1,0 +1,112 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  top: 0;
+
+}
+
+/*DIVS*/
+
+#top-tagline {
+  margin: 0;
+}
+
+.icon-title {
+  margin: 0;
+}
+
+.fullpage-div {
+  background: black;
+}
+
+.icon-div {
+  /*display: inline-block;
+  padding: 15px;*/
+  /*width: 45%;*/
+  padding: 15px;
+  text-align: center;
+  height: 300px;
+}
+
+
+#whats-going-on {
+  background: white;
+  padding: 15px;
+  text-align: center;
+}
+
+#top-div {
+  background: red;
+  padding: 15px;
+  text-align: center;
+}
+
+#learn-more-div {
+  background: orange;
+  /*width: 80%;*/
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#true-live-music {
+  background: yellow;
+}
+
+#better-with-friends {
+    background: green;
+}
+
+#bands-and-fans {
+  background: blue;
+}
+
+#nothing-but-live {
+  background: purple;
+}
+
+#bottom-request {
+  background: pink;
+  padding: 15px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer {
+  background: aquamarine;
+  color: red;
+  padding: 10px;
+
+}
+
+#submit-button {
+  border-style: none;
+  margin-left: -4px;
+  height: 30px;
+  font-size: 1em;
+}
+
+#email-address {
+  padding: 0;
+  font-size: 1em;
+  margin: 0;
+  border-style: none;
+  height: 30px;
+}
+
+#email {
+  margin: 15px;
+  padding: 0;
+}
+
+
+#request-button {
+  margin-top:20px;
+  margin-left: -500px;
+  width:150px;
+  padding:20px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+}
