@@ -8,28 +8,44 @@ body {
 /*MODAL*/
 .modal-content {
   margin-top: 200px;
-  border-radius: 20px;
+  border-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 
 button.close {
   opacity: 1;
-  margin-top: -20px;
-  margin-right: -20px;
-  background: #0e5e3e;
+  margin-top: -45px;
+  margin-right: -45px;
+  background: #1bca6d;
   color: white;
-  /*width: 67px;*/
   width: 40px;
   height: 40px;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 0;
   padding-bottom: 5px;
 }
 
 button.close:hover {
   opacity: 1;
+  color: white;
+}
+
+.modal-header {
+  text-align: center;
+  color: #e94cba;
+  font-family: "Arial";
+  border-bottom: 0;
+}
+
+.modal-header > h4 {
+  font-weight: lighter;
+  font-size: 24px;
 }
 
 /*DIVS*/
