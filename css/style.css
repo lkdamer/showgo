@@ -5,6 +5,33 @@ body {
 
 }
 
+/*MODAL*/
+.modal-content {
+  margin-top: 200px;
+  border-radius: 20px;
+}
+
+
+button.close {
+  opacity: 1;
+  margin-top: -20px;
+  margin-right: -20px;
+  background: #0e5e3e;
+  color: white;
+  /*width: 67px;*/
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 20px;
+  padding: 0;
+  padding-bottom: 5px;
+}
+
+button.close:hover {
+  opacity: 1;
+}
+
 /*DIVS*/
 
 #top-tagline {
