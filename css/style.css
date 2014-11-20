@@ -5,6 +5,14 @@ body {
 
 }
 
+.red {
+  color: red;
+}
+
+.center {
+  text-align: center;
+}
+
 /*DIVS*/
 
 #top-tagline {
@@ -16,7 +24,7 @@ body {
 }
 
 .fullpage-div {
-  background: black;
+  font-family: 'Quicksand';
 }
 
 .icon-div {
@@ -33,6 +41,7 @@ body {
   background: white;
   padding: 15px;
   text-align: center;
+  border-bottom: 1px solid lightgrey;
 }
 
 #top-div {
@@ -42,7 +51,6 @@ body {
 }
 
 #learn-more-div {
-  background: orange;
   /*width: 80%;*/
   margin-left: auto;
   margin-right: auto;
@@ -51,30 +59,29 @@ body {
 }
 
 #true-live-music {
-  background: yellow;
+
 }
 
 #better-with-friends {
-    background: green;
+
 }
 
 #bands-and-fans {
-  background: blue;
+
 }
 
 #nothing-but-live {
-  background: purple;
+
 }
 
 #bottom-request {
-  background: pink;
   padding: 15px;
   text-align: center;
 }
 
 footer {
-  background: aquamarine;
-  color: red;
+  background: purple;
+  color: white;
   padding: 10px;
 
 }
@@ -82,8 +89,10 @@ footer {
 #submit-button {
   border-style: none;
   margin-left: -4px;
-  height: 30px;
+  height: 40px;
   font-size: 1em;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 #email-address {
@@ -91,10 +100,12 @@ footer {
   font-size: 1em;
   margin: 0;
   border-style: none;
-  height: 30px;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  opacity: .7;
 }
 
 #email {
   margin: 15px;
-  padding: 0;
 }
