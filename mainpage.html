@@ -1,21 +1,40 @@
 <!DOCTYPE HTML>
 <head>
-      <link rel="stylesheet" href="css/style.css">
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+      <script src="js/jquery-min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <link href='http://fonts.googleapis.com/css?family=Yeseva+One|Quicksand' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/style.css">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
+  <!-- Modal -->
+  <div class="modal fade" id="submissionModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Thanks for requesting a Showgo beta account!</h4>
+        </div>
+        <div class="modal-body">
+          We have a limited number of beta accounts available, but as long as there's enough right now, you'll receive an email invite shortly. We're happy you found us! Stay in touch over on our <a href="BLOG URL">blog</a> and our <a href="TWITTER URL">snarky twitter account</a>.
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="fullpage-div">
     <div id="top-div" class="fullpage-div">
       <!-- This is where the concert pic and the beta request form goes. -->
         <h1 id = "top-tagline">Because live music is better</h1>
         <form id = "email">
             <input type="text" id="email-address" />
-            <button id = "submit-button">Submit</button>
+            <button type="button" id="submit-button" data-toggle="modal" data-target="#submissionModal">SUBMIT</button>
+
         </form>
     </div>
+
     <div id="learn-more-div">
         <div id = "whats-going-on">
           <h2 class = "red">What's going on here?</h2>

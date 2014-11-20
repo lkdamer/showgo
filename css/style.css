@@ -5,12 +5,59 @@ body {
 
 }
 
+
 .red {
   color: red;
 }
 
 .center {
   text-align: center;
+
+/*MODAL*/
+
+
+
+.modal-content {
+  height: 30%;
+  margin-top: 200px;
+  border-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+button.close {
+  opacity: 1;
+  margin-top: -35px;
+  margin-right: -43px;
+  background: #1bca6d;
+  color: white;
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 30px;
+  padding: 0;
+  padding-bottom: 5px;
+}
+
+button.close:hover {
+  opacity: 1;
+  color: white;
+}
+
+.modal-header {
+  text-align: center;
+  color: #e94cba;
+  font-family: "Open Sans Condensed";
+  border-bottom: 0;
+}
+
+.modal-header > h4 {
+  font-weight: lighter;
+  font-size: 24px;
 }
 
 /*DIVS*/
