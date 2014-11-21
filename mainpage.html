@@ -1,14 +1,15 @@
 <!DOCTYPE HTML>
 <head>
-      <link rel="stylesheet" href="css/style.css">
-      <link href="css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="css/style.css">
       <script src="js/jquery-min.js"></script>
       <script src="js/bootstrap.min.js"></script>
+      <script src="js/main.js"></script>
 </head>
 <body>
-  <!-- Modal -->
-  <div class="modal fade" id="submissionModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <!-- Thanks Modal -->
+  <div class="modal_fade" id="submissionModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -26,9 +27,13 @@
       <!-- This is where the concert pic and the beta request form goes. -->
         <h1 id = "top-tagline">Because live music is better</h1>
 
-        <form id = "email" action="//discovershowgo.us7.list-manage.com/subscribe/post?u=9e553cd5b137eb92c630d2e2b&amp;id=673fe8f10f" method="get" >
-            <input type="email" value="Request a beta invite" name="EMAIL" id="email-address" />
-            <button type="button" id="submit-button" data-toggle="modal" data-target="#submissionModal">SUBMIT</button>
+        <form id = "email" action="http://discovershowgo.us7.list-manage.com/subscribe/post-json?u=9e553cd5b137eb92c630d2e2b&amp;id=673fe8f10f&amp;c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+            <input type="email" placeholder="Request a beta invite" name="EMAIL" class="required email" id="mce-EMAIL">
+            <!-- <input type="email" value="Request a beta invite" name="EMAIL" id="email-address" /> -->
+            <!-- <button type="button" id="submit-button" data-toggle="modal" data-target="#submissionModal">SUBMIT</button> -->
+            <input type="submit" value="Request" name="Request" id="mc-embedded-subscribe" class="button">
+
         </form>
     </div>
 

@@ -5,7 +5,6 @@ $(document).ready( function () {
     if ( $form.length > 0 ) {
         $('form input[type="submit"]').bind('click', function ( event ) {
             if ( event ) event.preventDefault();
-            // validate_input() is a validation function I wrote, you'll have to substitute this with your own.
              register($form);
         });
     }
@@ -21,11 +20,9 @@ function register($form) {
         contentType: "application/json; charset=utf-8",
         error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
         success     : function(data) {
-            if (data.result != "success") {
-            console.log(data)
-             } else {
-                console.log(data) 
-            }
+                      // if data.result == error then show data.msg
+                      // need div for error message & style
+                      // 
         }
     });
   }
