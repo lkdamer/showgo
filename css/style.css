@@ -5,6 +5,61 @@ body {
 
 }
 
+
+.red {
+  color: red;
+}
+
+.center {
+  text-align: center;
+
+/*MODAL*/
+
+
+
+.modal-content {
+  height: 30%;
+  margin-top: 200px;
+  border-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+button.close {
+  opacity: 1;
+  margin-top: -35px;
+  margin-right: -43px;
+  background: #1bca6d;
+  color: white;
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 30px;
+  padding: 0;
+  padding-bottom: 5px;
+}
+
+button.close:hover {
+  opacity: 1;
+  color: white;
+}
+
+.modal-header {
+  text-align: center;
+  color: #e94cba;
+  font-family: "Open Sans Condensed";
+  border-bottom: 0;
+}
+
+.modal-header > h4 {
+  font-weight: lighter;
+  font-size: 24px;
+}
+
 /*DIVS*/
 
 #top-tagline {
@@ -16,7 +71,7 @@ body {
 }
 
 .fullpage-div {
-  background: black;
+  font-family: 'Quicksand';
 }
 
 .icon-div {
@@ -33,6 +88,7 @@ body {
   background: white;
   padding: 15px;
   text-align: center;
+  border-bottom: 1px solid lightgrey;
 }
 
 #top-div {
@@ -42,7 +98,6 @@ body {
 }
 
 #learn-more-div {
-  background: orange;
   /*width: 80%;*/
   margin-left: auto;
   margin-right: auto;
@@ -51,30 +106,29 @@ body {
 }
 
 #true-live-music {
-  background: yellow;
+
 }
 
 #better-with-friends {
-    background: green;
+
 }
 
 #bands-and-fans {
-  background: blue;
+
 }
 
 #nothing-but-live {
-  background: purple;
+
 }
 
 #bottom-request {
-  background: pink;
   padding: 15px;
   text-align: center;
 }
 
 footer {
-  background: aquamarine;
-  color: red;
+  background: purple;
+  color: white;
   padding: 10px;
 
 }
@@ -82,8 +136,10 @@ footer {
 #submit-button {
   border-style: none;
   margin-left: -4px;
-  height: 30px;
+  height: 40px;
   font-size: 1em;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 #email-address {
@@ -91,13 +147,15 @@ footer {
   font-size: 1em;
   margin: 0;
   border-style: none;
-  height: 30px;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  opacity: .7;
 }
 
 
 #email {
   margin: 15px;
-  padding: 0;
 }
 
 /*testing MailChimp*/
