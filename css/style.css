@@ -57,7 +57,25 @@ button.close:hover {
 
 .modal-header h4 {
   font-weight: lighter;
-  font-size: 24px;
+  font-size: 33px;
+}
+
+.modal-body {
+  font-family: "Open Sans Condensed";
+  font-weight: 400;
+}
+
+a {
+  color: #ed4870;
+}
+
+a:visited {
+  color: #ed4870;
+}
+
+a:hover {
+  color: #ed4870;
+  text-decoration: none;
 }
 
 /*DIVS*/
