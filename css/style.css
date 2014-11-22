@@ -24,7 +24,7 @@ button.close {
   opacity: 1;
   margin-top: -35px;
   margin-right: -43px;
-  background: #1bca6d;
+  background: #33cc99;
   color: white;
   width: 40px;
   height: 40px;
@@ -42,12 +42,12 @@ button.close:hover {
 
 .modal-header {
   text-align: center;
-  color: #e94cba;
+  color: #ed4870;
   font-family: "Open Sans Condensed";
   border-bottom: 0;
 }
 
-.modal-header > h4 {
+.modal-header h4 {
   font-weight: lighter;
   font-size: 24px;
 }
