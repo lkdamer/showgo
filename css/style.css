@@ -1,10 +1,8 @@
 body {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   top: 0;
-
 }
-
 
 .red {
   color: red;
@@ -12,7 +10,7 @@ body {
 
 .center {
   text-align: center;
-
+}
 /*MODAL*/
 
 
@@ -32,7 +30,7 @@ button.close {
   opacity: 1;
   margin-top: -35px;
   margin-right: -43px;
-  background: #1bca6d;
+  background: #33cc99;
   color: white;
   width: 40px;
   height: 40px;
@@ -50,14 +48,36 @@ button.close:hover {
 
 .modal-header {
   text-align: center;
-  color: #e94cba;
-  font-family: "Open Sans Condensed";
+  color: #ed4870;
+  font-family: "Open Sans";
   border-bottom: 0;
 }
 
-.modal-header > h4 {
-  font-weight: lighter;
-  font-size: 24px;
+.modal-header h4 {
+  font-weight: 300;
+  font-size: 23px;
+}
+
+.modal-body {
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 10px;
+  width: 515px;
+  text-align: center;
+}
+
+a {
+  color: #ed4870;
+}
+
+a:visited {
+  color: #ed4870;
+}
+
+a:hover {
+  color: #ed4870;
+  text-decoration: none;
 }
 
 /*DIVS*/
