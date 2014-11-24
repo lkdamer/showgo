@@ -178,6 +178,10 @@ footer {
   margin: 15px;
 }
 
+.modal_fade {
+  display: none;
+}
+
 /*testing MailChimp*/
 #mce-EMAIL {
   padding: 0;

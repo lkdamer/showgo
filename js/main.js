@@ -20,9 +20,16 @@ function register($form) {
         contentType: "application/json; charset=utf-8",
         error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
         success     : function(data) {
-                      // if data.result == error then show data.msg
-                      // need div for error message & style
-                      // 
+            // if data.result == error then show data.msg
+            // need div for error message & style
+            if (data.result == "error") {
+              var errorMsg = data.msg.replace("0 - ", "");
+              $(".error_msg").text(errorMsg);
+            } else {
+              $(".modal_fade").show();
+              $(".error_msg").text("");
+            }
+
         }
     });
   }
