@@ -141,7 +141,7 @@ a:hover {
 
 }
 
-#are-u-in {
+#bottom-request {
   padding: 15px;
   text-align: center;
 }
@@ -180,6 +180,9 @@ footer {
 }
 
 #request-button {
+  font-family: "Open Sans";
+  color:#FFFFFF;
+  background-color:#ed4870;
   margin-top:20px;
   margin-left: -500px;
   width:150px;
