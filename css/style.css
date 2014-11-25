@@ -140,6 +140,9 @@ a:hover {
 #nothing-but-live {
 
 }
+#are-you-in {
+
+}
 
 #bottom-request {
   padding: 15px;
@@ -184,8 +187,6 @@ footer {
   font-family: "Open Sans";
   color:#FFFFFF;
   background-color:#ed4870;
-  margin-top:20px;
-  margin-bottom:20px;
   width:150px;
   padding:20px;
   -webkit-border-radius: 35px;
