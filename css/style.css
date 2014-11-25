@@ -147,9 +147,10 @@ a:hover {
 }
 
 footer {
-  background: purple;
+  font-size: 10px;
+  background:#533f61;
   color: white;
-  padding: 10px;
+  padding:18px;
 
 }
 
