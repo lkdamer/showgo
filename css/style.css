@@ -13,6 +13,14 @@ body {
 }
 /*MODAL*/
 
+.masthead {
+  height:670px;
+  max-width:100%;
+  max-height:100%;
+  background-position:center;
+  background-image: url("../assets/showgo_header.jpg");
+  background-repeat: no-repeat;
+}
 
 
 .modal-content {
@@ -84,6 +92,7 @@ a:hover {
 
 #top-tagline {
   margin: 0;
+  color:#FFFFFF;
 }
 
 .icon-title {
@@ -113,7 +122,6 @@ a:hover {
 }
 
 #top-div {
-  background: red;
   padding: 15px;
   text-align: center;
 }
