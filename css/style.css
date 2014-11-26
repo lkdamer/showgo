@@ -101,6 +101,7 @@ a:hover {
   padding: 15px;
   text-align: center;
   height: 300px;
+  border-bottom: 1px solid lightgrey;
 }
 
 
@@ -140,23 +141,20 @@ a:hover {
 #nothing-but-live {
 
 }
-#request-beta {
-  padding:40px;
-  margin: 155px;
-  margin-top: 20px;
-  margin-bottom:40px;
+#are-you-in {
+
 }
 
-#are-you-in{
-  margin-top:5px;
+#bottom-request {
+  padding: 15px;
+  text-align: center;
 }
-
 
 footer {
   font-size: 10px;
   background:#533f61;
   color: white;
-  padding:20px;
+  padding:18px;
 
 }
 
@@ -187,12 +185,11 @@ footer {
 }
 
 #request-button {
-  font-size: 1.25em;
-  font-family: "Open Sans" bold;
+  font-family: "Open Sans";
   color:#FFFFFF;
   background-color:#ed4870;
   width:150px;
-  padding:22px;
+  padding:20px;
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
   border-radius: 35px;
