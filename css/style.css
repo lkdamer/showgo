@@ -1,0 +1,220 @@
+body {
+  padding: 0;
+  margin: 0;
+  top: 0;
+}
+
+.red {
+  color: red;
+}
+
+.center {
+  text-align: center;
+}
+/*MODAL*/
+
+
+
+.modal-content {
+  height: 30%;
+  margin-top: 200px;
+  border-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+button.close {
+  opacity: 1;
+  margin-top: -35px;
+  margin-right: -43px;
+  background: #33cc99;
+  color: white;
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 30px;
+  padding: 0;
+  padding-bottom: 5px;
+}
+
+button.close:hover {
+  opacity: 1;
+  color: white;
+}
+
+.modal-header {
+  text-align: center;
+  color: #ed4870;
+  font-family: "Open Sans";
+  border-bottom: 0;
+}
+
+.modal-header h4 {
+  font-weight: 300;
+  font-size: 23px;
+}
+
+.modal-body {
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 10px;
+  width: 515px;
+  text-align: center;
+}
+
+a {
+  color: #ed4870;
+}
+
+a:visited {
+  color: #ed4870;
+}
+
+a:hover {
+  color: #ed4870;
+  text-decoration: none;
+}
+
+/*DIVS*/
+
+#top-tagline {
+  margin: 0;
+}
+
+.icon-title {
+  margin: 0;
+}
+
+.fullpage-div {
+  font-family: 'Quicksand';
+}
+
+.icon-div {
+  /*display: inline-block;
+  padding: 15px;*/
+  /*width: 45%;*/
+  padding: 15px;
+  text-align: center;
+  height: 300px;
+}
+
+
+#whats-going-on {
+  background: white;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+#top-div {
+  background: red;
+  padding: 15px;
+  text-align: center;
+}
+
+#learn-more-div {
+  /*width: 80%;*/
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#true-live-music {
+
+}
+
+#better-with-friends {
+
+}
+
+#bands-and-fans {
+
+}
+
+#nothing-but-live {
+
+}
+#request-beta {
+  padding:40px;
+  margin: 155px;
+  margin-top: 20px;
+  margin-bottom:40px;
+}
+
+#are-you-in{
+  margin-top:5px;
+}
+
+
+footer {
+  font-size: 10px;
+  background:#533f61;
+  color: white;
+  padding:20px;
+
+}
+
+#submit-button {
+  border-style: none;
+  margin-left: -4px;
+  height: 40px;
+  font-size: 1em;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#email-address {
+  padding: 0;
+  font-size: 1em;
+  margin: 0;
+  border-style: none;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  opacity: .7;
+}
+
+
+#email {
+  margin: 15px;
+  padding: 0;
+}
+
+#request-button {
+  font-size: 1.25em;
+  font-family: "Open Sans" bold;
+  color:#FFFFFF;
+  background-color:#ed4870;
+  width:150px;
+  padding:22px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+}
+
+.modal_fade {
+  display: none;
+}
+
+/*testing MailChimp*/
+#mce-EMAIL {
+  padding: 0;
+  font-size: 1em;
+  margin: 0;
+  border-style: none;
+  height: 30px;
+}
+
+#mc-embedded-subscribe {
+  border-style: none;
+  margin-left: -4px;
+  height: 30px;
+  font-size: 1em;
+}
+/*end of testing MailChimp*/
