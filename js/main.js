@@ -26,7 +26,8 @@ function register($form) {
               var errorMsg = data.msg.replace("0 - ", "");
               $(".error_msg").text(errorMsg);
             } else {
-              $(".modal_fade").show();
+              $(".modal.fade").modal();
+              $("#mce-EMAIL").val("");
               $(".error_msg").text("");
             }
 
