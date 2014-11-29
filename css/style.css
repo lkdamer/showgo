@@ -19,7 +19,14 @@ body {
   max-height:100%;
   background-position:100% 45%;
   background-image: url("../assets/showgo_header.jpg");
-  background-size: cover;
+  background-size:cover;
+  z-index: 0;
+}
+
+#showgo-top {
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -157,6 +164,7 @@ a:hover {
   padding: 15px;
   text-align: center;
 }
+
 
 footer {
   font-size: 10px;
