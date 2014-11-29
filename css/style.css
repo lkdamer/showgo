@@ -23,10 +23,13 @@ body {
   z-index: 0;
 }
 
-#showgo-top {
+#showgo-top img{
+  width:170px;
   z-index: 1;
   margin-left: auto;
   margin-right: auto;
+  margin-top:175px;
+  margin-bottom: 30px;
 }
 
 
@@ -100,6 +103,7 @@ a:hover {
 #top-tagline {
   margin: 0;
   color:#FFFFFF;
+  margin-bottom:37px;
 }
 
 .icon-title {
@@ -175,23 +179,32 @@ footer {
 }
 
 #submit-button {
+  font-family: "Open Sans";
+  color:#FFFFFF;
+  background-color:#ed4870;
+  outline: none !important;
+  text-shadow: none!important;
   border-style: none;
-  margin-left: -4px;
-  height: 40px;
+  margin-left: -3.5px;
+  height: 72px;
+  width:10%;
   font-size: 1em;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 #email-address {
+  outline: none !important;
+  box-shadow: none!important;
   padding: 0;
   font-size: 1em;
   margin: 0;
   border-style: none;
-  height: 40px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  opacity: .7;
+  width: 55%;
+  height: 70px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  opacity: .6;
 }
 
 
