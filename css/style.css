@@ -9,11 +9,31 @@ body {
 }
 
 .center {
-  text-align: center;
+  text-align:center;
 }
+
+input {
+  font-family:"Open Sans", bold;
+}
+
+footer {
+  font-size: 10px;
+  background:#533f61;
+  color: white;
+  padding:18px;
+}
+
+.masthead {
+  height:725px;
+  max-width:100%;
+  max-height:100%;
+  background-position:100% 45%;
+  background-image: url("../assets/showgo_header.jpg");
+  background-size:cover;
+  z-index: 0;
+}
+
 /*MODAL*/
-
-
 
 .modal-content {
   height: 30%;
@@ -67,6 +87,11 @@ button.close:hover {
   text-align: center;
 }
 
+.modal_fade {
+  display: none;
+}
+
+
 a {
   color: #ed4870;
 }
@@ -82,9 +107,6 @@ a:hover {
 
 /*DIVS*/
 
-#top-tagline {
-  margin: 0;
-}
 
 .icon-title {
   margin: 0;
@@ -101,7 +123,12 @@ a:hover {
   padding: 15px;
   text-align: center;
   height: 300px;
+  border-bottom: 1px solid lightgrey;
 }
+
+/*.fa fa-arrow-circle-down{
+  text-align:left;
+}*/
 
 
 #whats-going-on {
@@ -112,10 +139,10 @@ a:hover {
 }
 
 #top-div {
-  background: red;
   padding: 15px;
   text-align: center;
 }
+
 
 #learn-more-div {
   /*width: 80%;*/
@@ -149,38 +176,68 @@ a:hover {
   text-align: center;
 }
 
-footer {
-  font-size: 10px;
-  background:#533f61;
-  color: white;
-  padding:18px;
+#showgo-top img{
+  width:170px;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:175px;
+  margin-bottom: 30px;
+}
 
+
+#top-tagline {
+  margin: 0;
+  color:#FFFFFF;
+  margin-bottom:37px;
 }
 
 #submit-button {
+  font-family: "Open Sans";
+  color:#FFFFFF;
+  font-size:115%;
+  background-color:#ed4870;
+  outline: none !important;
+  text-shadow: none!important;
   border-style: none;
   margin-left: -4px;
-  height: 40px;
-  font-size: 1em;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  height: 70px;
+  width:10%;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 #email-address {
-  padding: 0;
+  outline: none !important;
+  box-shadow: none!important;
+  padding: 30px;
   font-size: 1em;
   margin: 0;
   border-style: none;
-  height: 40px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  opacity: .7;
+  width: 55%;
+  height: 70px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  opacity: .6;
 }
 
 
 #email {
-  margin: 15px;
-  padding: 0;
+  margin:15px;
+  padding:0;
+}
+
+#learn-more-btn {
+  font-family:"Open Sans", bold;
+  font-size:13px;
+  color:#FFFFFF;
+  background-color:#33cc99;
+  width:155px;
+  padding:15px;
+  margin-top:175px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
 }
 
 #request-button {
@@ -194,9 +251,6 @@ footer {
   border-radius: 35px;
 }
 
-.modal_fade {
-  display: none;
-}
 
 /*testing MailChimp*/
 #mce-EMAIL {
@@ -214,3 +268,25 @@ footer {
   font-size: 1em;
 }
 /*end of testing MailChimp*/
+
+
+/*webkits*/
+
+::-webkit-input-placeholder{
+  font-family: "Open Sans", bold;
+  color:black;
+}
+
+::-webkit-input-placeholder::before{
+  content:"\f003";
+  font-family: FontAwesome;
+  font-style:normal;
+  font-weight:normal;
+  font-size:16px;
+  margin-right:9px;
+  color:black;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
