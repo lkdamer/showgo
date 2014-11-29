@@ -1,3 +1,5 @@
+@font-face
+
 body {
   padding: 0;
   margin: 0;
@@ -9,7 +11,7 @@ body {
 }
 
 .center {
-  text-align: center;
+  text-align:center;
 }
 /*MODAL*/
 
@@ -175,20 +177,19 @@ footer {
   background:#533f61;
   color: white;
   padding:18px;
-
 }
 
 #submit-button {
   font-family: "Open Sans";
   color:#FFFFFF;
+  font-size:115%;
   background-color:#ed4870;
   outline: none !important;
   text-shadow: none!important;
   border-style: none;
-  margin-left: -3.5px;
-  height: 72px;
+  margin-left: -4px;
+  height: 70px;
   width:10%;
-  font-size: 1em;
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
 }
@@ -196,7 +197,7 @@ footer {
 #email-address {
   outline: none !important;
   box-shadow: none!important;
-  padding: 0;
+  padding: 30px;
   font-size: 1em;
   margin: 0;
   border-style: none;
@@ -244,3 +245,20 @@ footer {
   font-size: 1em;
 }
 /*end of testing MailChimp*/
+
+
+
+::-webkit-input-placeholder{
+  font-family: "Open Sans", bold;
+  color:black;
+}
+
+::-webkit-input-placeholder::before{
+  content:"\f003";
+  font-family: FontAwesome;
+  font-style:normal;
+  font-weight:normal;
+  font-size:16px;
+  margin-right:9px;
+  color:black;
+}
