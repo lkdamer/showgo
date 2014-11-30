@@ -126,10 +126,6 @@ a:hover {
   border-bottom: 1px solid lightgrey;
 }
 
-/*.fa fa-arrow-circle-down{
-  text-align:left;
-}*/
-
 
 #whats-going-on {
   background: white;
@@ -290,24 +286,3 @@ a:hover {
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
-
-.modal_fade {
-  display: none;
-}
-
-/*testing MailChimp*/
-#mce-EMAIL {
-  padding: 0;
-  font-size: 1em;
-  margin: 0;
-  border-style: none;
-  height: 30px;
-}
-
-#mc-embedded-subscribe {
-  border-style: none;
-  margin-left: -4px;
-  height: 30px;
-  font-size: 1em;
-}
-/*end of testing MailChimp*/
