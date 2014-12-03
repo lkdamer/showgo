@@ -2,7 +2,14 @@ body {
   padding: 0;
   margin: 0;
   top: 0;
+  font-family: "Open Sans"
+}
+h1,h2,h3 {
   font-family: 'Quicksand';
+}
+
+hr {
+  margin: 40px 0;
 }
 
 .red {
@@ -13,9 +20,6 @@ body {
   text-align:center;
 }
 
-input {
-  font-family:"Open Sans", bold;
-}
 
 footer {
   font-size: 10px;
@@ -70,7 +74,6 @@ button.close:hover {
 .modal-header {
   text-align: center;
   color: #ed4870;
-  font-family: "Open Sans";
   border-bottom: 0;
 }
 
@@ -80,7 +83,6 @@ button.close:hover {
 }
 
 .modal-body {
-  font-family: "Open Sans";
   font-weight: 500;
   font-size: 15px;
   margin-left: 10px;
@@ -110,7 +112,9 @@ a:hover {
 
 
 .icon-title {
-  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px;
 }
 
 .fullpage-div {
@@ -119,21 +123,36 @@ a:hover {
 }
 
 .icon-div {
-  /*display: inline-block;
-  padding: 15px;*/
-  /*width: 45%;*/
-   padding: 15px;
-  text-align: center;
-  /*height: 300px;*/
-  border-bottom: 1px solid lightgrey;
+  height: 300px;
+}
+
+.icon-div img {
+  height: 130px;
 }
 
 
-#whats-going-on {
+.whats-going-on {
   background: white;
   padding: 15px;
   text-align: center;
-  border-bottom: 1px solid lightgrey;
+}
+
+.whats-going-on h2 {
+  font-size: 48px;
+  font-weight: 100;
+  font-family: "Open Sans";
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.whats-going-on p {
+}
+
+.how-it-works {
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 40px;
 }
 
 #top-div {
@@ -142,13 +161,6 @@ a:hover {
 }
 
 
-#learn-more-div {
-  /*width: 80%;*/
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10%;
-  padding-right: 10%;
-}
 
 #how_it_works {
   width: 75%;
@@ -202,34 +214,6 @@ a:hover {
   margin-bottom:37px;
 }
 
-#submit-button {
-  font-family: "Open Sans";
-  color:#FFFFFF;
-  font-size:115%;
-  background-color:#ed4870;
-  outline: none !important;
-  text-shadow: none!important;
-  border-style: none;
-  margin-left: -4px;
-  height: 70px;
-  width:10%;
-  border-top-right-radius: 40px;
-  border-bottom-right-radius: 40px;
-}
-
-#email-address {
-  outline: none !important;
-  box-shadow: none!important;
-  padding: 30px;
-  font-size: 1em;
-  margin: 0;
-  border-style: none;
-  width: 55%;
-  height: 70px;
-  border-top-left-radius: 40px;
-  border-bottom-left-radius: 40px;
-  opacity: .6;
-}
 
 
 #email {
@@ -238,31 +222,12 @@ a:hover {
 }
 
 #learn-more-btn {
-  font-family:"Open Sans", bold;
-  font-size:13px;
   color:#FFFFFF;
   background-color:#33cc99;
-  width:155px;
-  padding:15px;
-  margin-top:175px;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  border-radius: 35px;
 }
 
 #learn-more-btn i {
   margin-right: 5px;
-}
-
-#request-button {
-  font-family: "Open Sans";
-  color:#FFFFFF;
-  background-color:#ed4870;
-  width:150px;
-  padding:20px;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  border-radius: 35px;
 }
 
 
@@ -275,11 +240,89 @@ a:hover {
   height: 30px;
 }
 
-#mc-embedded-subscribe {
-  border-style: none;
-  margin-left: -4px;
-  height: 30px;
+.round {
+  border-radius: 40px;
+}
+
+.button {
+  width:155px;
+  font-size:13px;
+  padding: 15px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+}
+
+.email {
+  outline: none !important;
+  box-shadow: none!important;
+  padding: 30px;
   font-size: 1em;
+  margin: 0 0 20px 0;
+  border-style: none;
+  width: 55%;
+  min-width: 300px;
+  height: 70px;
+  z-index: 1;
+  opacity: .6;
+}
+
+
+.red-button {
+  color:#FFFFFF;
+  background-color:#ed4870;
+}
+
+.request-button {
+  display: block;
+  outline: none;
+  text-shadow: none;
+  border-style: none;
+  margin: 0 auto;
+  opacity: 0.9999;
+}
+
+.request-button.inline {
+  font-size: 115%;
+  height: 70px;
+  padding: 2px 30px 3px 20px;
+  display: inline-block;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-bottom: -5px;
+  margin-left: -40px;
+  z-index: 999;
+}
+
+.are-you-in {
+  height: 150px;
+}
+
+.are-you-in .button {
+  height: 70px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.are-you-in h3 {
+  font-family: "Open Sans";
+  font-weight: 100;
+}
+
+.are-you-in {
+  margin-bottom: 60px;
+}
+
+
+@media (min-width: 992px) {
+  .learn-more {
+    margin-top: 150px;
+  }
+
+  .are-you-in {
+    margin-bottom: 0px;
+  }
 }
 /*end of testing MailChimp*/
 
@@ -287,7 +330,6 @@ a:hover {
 /*webkits*/
 
 ::-webkit-input-placeholder{
-  font-family: "Open Sans";
   color:black;
 }
 

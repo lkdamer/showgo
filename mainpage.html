@@ -5,14 +5,13 @@
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
   <script src="js/jquery-min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Yeseva+One|Quicksand' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <!-- Thanks Modal -->
@@ -29,90 +28,103 @@
       </div>
     </div>
   </div> <!-- Modal End -->
-  <div class="fullpage-div">
-      <div class="masthead">
-        <div id="top-div" class="fullpage-div">
-          <div id="showgo-top"><img src="assets/showgo_logo_white.png" class="img-responsive"/></div>
-          <h1 id = "top-tagline">Because live music is better</h1>
+
+  <div class="masthead">
+    <div id="top-div" class="container fullpage-div">
+      <div id="showgo-top"><img src="assets/showgo_logo_white.png" class="img-responsive"/></div>
+      <h1 id = "top-tagline">Because live music is better</h1>
 
       <form id = "email" action="http://discovershowgo.us7.list-manage.com/subscribe/post-json?u=9e553cd5b137eb92c630d2e2b&amp;id=673fe8f10f&amp;c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <input placeholder="Request a beta invite" type="email" name="EMAIL" class="required email" id="email-address">
+        <input placeholder="Request a beta invite" type="email" name="EMAIL" class="required email round" id="email-address">
         <!-- <input type="text" id="email-address" /> -->
         <!-- <button type="button" id="submit-button" data-toggle="modal" data-target="#submissionModal">SUBMIT</button> -->
-        <input type="submit" value="REQUEST" id="submit-button" name="Request" id="mc-embedded-subscribe" class="button">
+        <input type="submit" value="REQUEST" id="submit-button" name="Request" id="mc-embedded-subscribe" class="visible-lg-inline-block visible-md-inline-block request-button red-button inline button">
+        <input type="submit" value="REQUEST" id="submit-button" name="Request" id="mc-embedded-subscribe" class="round hidden-lg hidden-md button red-button request-button">
       </form>
 
       <div class = "error_msg">   </div>
-      <button type="button" id="learn-more-btn" class="btn btn-lg"><i class="fa fa-arrow-circle-down fa-lg"></i> LEARN MORE</button></div>
-      </div>
+      <button type="button" id="learn-more-btn" class="btn btn-lg learn-more button"><i class="fa fa-arrow-circle-down fa-lg"></i> LEARN MORE</button></div>
     </div>
-
-    <div id="learn-more-div">
-      <div id = "whats-going-on">
-        <h2 class = "red">What's going on here?</h2>
-        <p>Finding new live music nearby isn't always as easy as it should be, which is why we're building Showgo. Soon, descovering incredible live music will be more simple, social, and fun than ever before.</p>
-      </div>
-
-      <h2 class = "red center">How it works</h2>
-      <div id = "how_it_works">
-          <div id="true-live-music" class = "col-md-6 icon-div">
-          <div class="learn_more_illustration" class="img-rounded">
-            <img src="assets/showgo_illustration-01.svg"</img>
-          </div><!--true-live-music illustration-->
-          <h4 class = "icon-title">True live music discovery</h4>
-          <p>Showgo puts everything you need to find and go to amazing shows in one place.</p>
-          <!-- True live music discovery -->
+  </div><!--  End Masthead -->
+  <div class="container">
+    <div class="row center">
+      <div class='col-lg-8 col-lg-offset-2'>
+        <div class="whats-going-on">
+          <h2 class="red">What's going on here?</h2>
+          <p>Finding new live music nearby isn't always as easy as it should be, which is why we're building Showgo. Soon, descovering incredible live music will be more simple, social, and fun than ever before.</p>
         </div>
+        <hr>
+        <div class='row'>
+          <h3 class="how-it-works center red">How it works</h3>
+          <div class='icon-div col-lg-6'>
+            <div class="learn_more_illustration" class="img-rounded">
+              <img src="assets/showgo_illustration-01.svg"</img>
+            </div><!--true-live-music illustration-->
 
-        <div id="better-with-friends" class = "col-md-6 icon-div">
-          <div class="learn_more_illustration" class="img-rounded">
-            <img src="assets/showgo_illustration-02.svg"</img>
-          </div><!--better-with-friends illustration-->
-          <h3 class = "icon-title">Better with friends</h3>
-          <p>Get rewarded for bringing your friends out to shows and helping bands build their fan bases.</p>
-          <!-- Better with friends -->
-        </div>
+            <h4 class="icon-title">True live music discovery</h4>
+            <p>Showgo puts everything you need to find and go to amazing shows in one place.</p>
+            <!-- True live music discovery -->
+          </div>
 
-        <div id="bands-and-fans" class = "col-md-6 icon-div">
-          <div class="learn_more_illustration" class="img-rounded">
-            <img src="assets/showgo_illustration-03.svg"</img>
-          </div><!--bands-and-fans illustration-->
-          <h3 class = "icon-title">Bands and fans unite</h3>
-          <p>Join a community for people that share a love of live music, whether you're on the stage or facing it.</p>
-          <!-- Bands and fans unite -->
-        </div>
-
-        <div id="nothing-but-live" class = "col-md-6 icon-div">
-          <div class="learn_more_illustration" class="img-rounded">
-            <img src="assets/showgo_illustration-04.svg"</img>
-          </div><!--nothing-but-live illustration-->
-          <h3 class = "icon-title">Nothing but live music</h3>
-          <p>Showgo is add free, and always will be. That means we're focussed on helping you find cool new music, and that's it.</p>
-          <!-- Nothing but live music -->
-        </div>
-      </div> <!--how_it_works-->
-
-      <div id="bottom-request">
-        <div class="row">
-          <div class="col-md-7 col-md-offset-1">
-            <h3 class = "icon-title" id="are-you-in">Are you in? Request a beta invite.</h3>
-            <a href="http://discovershowgo.com/blog">Go behind the scenes with our blog, No cover.</a></div>
-
-            <div class="col-md-2">
-              <button type="button" id="request-button" class="btn btn-lg">Request</button></div>
-            </div>
+          <div class='icon-div col-lg-6'>
+            <div class="learn_more_illustration" class="img-rounded">
+              <img src="assets/showgo_illustration-02.svg"</img>
+            </div><!--better-with-friends illustration-->
+            <h4 class = "icon-title">Better with friends</h4>
+            <p>Get rewarded for bringing your friends out to shows and helping bands build their fan bases.</p>
+            <!-- Better with friends -->
           </div>
         </div>
-      <footer>
-        <div class="row">
-          <p class="col-md-8">copyright @2012-2014 Showgo. Because live music is better.</p>
-          <span class="list-inline" "col-md-4">
-            <li><a href="mailto:admin@discovershowgo.com" class="navbar-link"><img src="assets/simple-icons-master/icons/email/email-32.png"/></a></li>
-            <li><a href="https://www.facebook.com/discovershowgo" class="navbar-link"><img src="assets/simple-icons-master/icons/facebook/facebook-32.png"/></a></li>
-            <li><a href="https://twitter.com/discovershowgo" class="navbar-link"><img src="assets/simple-icons-master/icons/twitter/twitter-32.png"/></a></li>
-            <li><a href="http://instagram.com/discovershowgo" class="navbar-link"><img src="assets/simple-icons-master/icons/instagram/instagram-32.png"/></a></li>
-          </span>
+
+        <div class='row'>
+          <div class='icon-div col-lg-6'>
+            <div class="learn_more_illustration" class="img-rounded">
+              <img src="assets/showgo_illustration-03.svg"</img>
+            </div><!--bands-and-fans illustration-->
+            <h4 class = "icon-title">Bands and fans unite</h4>
+            <p>Join a community for people that share a love of live music, whether you're on the stage or facing it.</p>
+            <!-- Bands and fans unite -->
+
+          </div>
+
+          <div class='icon-div col-lg-6'>
+            <div class="learn_more_illustration" class="img-rounded">
+              <img src="assets/showgo_illustration-04.svg"</img>
+            </div><!--nothing-but-live illustration-->
+            <h4 class = "icon-title">Nothing but live music</h4>
+            <p>Showgo is add free, and always will be. That means we're focussed on helping you find cool new music, and that's it.</p>
+            <!-- Nothing but live music -->
+          </div>
         </div>
-      </footer>
-  </div>
+
+        <hr>
+
+        <div class="row are-you-in">
+          <div class='col-lg-8'>
+            <h3>Are you in? Request a beta invite.</h3>
+            <a href="http://discovershowgo.com/blog">Go behind the scenes with our blog, No cover.</a>
+          </div>
+
+          <div class="col-lg-1">
+            <button type="button" class="button red-button btn btn-lg">Request</button>
+          </div>
+        </div>
+
+      </div>  <!-- col-8 -->
+    </div>  <!-- row -->
+  </div> <!-- container -->
+
+  <footer>
+    <div class='container'>
+      <div class="row">
+        <p class="col-lg-offset-2 col-md-6">copyright @2012-2014 Showgo. Because live music is better.</p>
+        <span class="list-inline col-md-4">
+          <li><a href="mailto:admin@discovershowgo.com" class="navbar-link"><img src="assets/simple-icons-master/icons/email/email-32.png"/></a></li>
+          <li><a href="https://www.facebook.com/discovershowgo" class="navbar-link"><img src="assets/simple-icons-master/icons/facebook/facebook-32.png"/></a></li>
+          <li><a href="https://twitter.com/discovershowgo" class="navbar-link"><img src="assets/simple-icons-master/icons/twitter/twitter-32.png"/></a></li>
+          <li><a href="http://instagram.com/discovershowgo" class="navbar-link"><img src="assets/simple-icons-master/icons/instagram/instagram-32.png"/></a></li>
+        </span>
+      </div>
+    </div>
+  </footer>
 </body>
