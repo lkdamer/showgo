@@ -122,7 +122,7 @@ a:hover {
   /*width: 45%;*/
    padding: 15px;
   text-align: center;
-  height: 300px;
+  /*height: 300px;*/
   border-bottom: 1px solid lightgrey;
 }
 
@@ -148,20 +148,32 @@ a:hover {
   padding-right: 10%;
 }
 
-#true-live-music {
+#how_it_works {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.learn_more_illustration {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#true-live-music {
+  width: 50%;
 }
 
 #better-with-friends {
-
+  width: 50%;
 }
 
 #bands-and-fans {
-
+  width: 50%;
 }
 
 #nothing-but-live {
-
+  width: 50%;
 }
 #are-you-in {
 
@@ -269,7 +281,7 @@ a:hover {
 /*webkits*/
 
 ::-webkit-input-placeholder{
-  font-family: "Open Sans", bold;
+  font-family: "Open Sans";
   color:black;
 }
 
