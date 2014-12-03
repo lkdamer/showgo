@@ -2,6 +2,19 @@ $(document).ready( function () {
     // I only have one form on the page but you can be more specific if need be.
     var $form = $('form');
 
+    $('#request-button').click(function(e) {
+      e.preventDefault();
+      $('html,body').animate({
+            scrollTop: 0}, 1000);
+    });
+
+    $('#learn-more-btn').click(function(e) {
+      e.preventDefault();
+      $('html,body').animate({
+           scrollTop: $('#learn-more-div').offset().top}, 1000);
+    });
+
+
     if ( $form.length > 0 ) {
         $('form input[type="submit"]').bind('click', function ( event ) {
             if ( event ) event.preventDefault();
