@@ -25,7 +25,7 @@ footer {
   font-size: 10px;
   background:#533f61;
   color: white;
-  padding:18px;
+  padding: 18px 0 10px 0;
 }
 
 .masthead {
@@ -119,7 +119,6 @@ a:hover {
 
 .fullpage-div {
   font-family: 'Quicksand';
-  letter-spacing: -3px;
 }
 
 .icon-div {
@@ -212,6 +211,7 @@ a:hover {
   margin: 0;
   color:#FFFFFF;
   margin-bottom:37px;
+  letter-spacing: -3px;
 }
 
 
@@ -228,6 +228,13 @@ a:hover {
 
 #learn-more-btn i {
   margin-right: 5px;
+}
+
+
+.error_msg {
+  color:#FFFFFF;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 
 
@@ -314,6 +321,9 @@ a:hover {
   margin-bottom: 60px;
 }
 
+.copyright {
+  margin-top: 10px;
+}
 
 @media (min-width: 992px) {
   .learn-more {
